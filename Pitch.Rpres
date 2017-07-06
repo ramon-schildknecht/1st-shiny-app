@@ -1,0 +1,43 @@
+Developing Data Products Assignment with R Shiny: Body mass index calculator, interpretation & health impacts
+========================================================
+author: Ramon Schildknecht
+date: 6 July 2017
+
+Task &  Objectives
+========================================================
+
+You will find the task description at: http://www.evernote.com/l/Ai_PRPBaRYlP85KV3exueTOA2Tj4ygc0340/
+
+You find the Shiny App here: https://rasch.shinyapps.io/shinyapp/
+
+The ui.R, server.R as well as the Rpresentation can be found on the [following GitHub repository](https://github.com/ramon-schildknecht/1st-shiny-app).
+
+BMI calculation and meaning
+========================================================
+
+The Body Mass Index (BMI) definition according to Wikipedia is:
+>"The BMI is defined as the body mass divided by the square of the body height, and is universally expressed in units of kg/m2, resulting from mass in kilograms and height in metres. The BMI is an attempt to quantify the amount of tissue mass (muscle, fat, and bone) in an individual, and then categorize that person as underweight, normal weight, overweight, or obese based on that value."
+
+[Source](https://en.wikipedia.org/wiki/Body_mass_index) (online 6 July 2017) 
+
+
+BMI Outcome
+========================================================
+
+There is [this nice chart](http://www.nscclinics.co.uk/slimming/wp-content/uploads/sites/3/2016/05/bmi-chart.png) which shows the possible outcomes.
+
+Furthermore you find [details about impacts concerning overweight](http://www.hopkinsmedicine.org/healthlibrary/conditions/diabetes/overview_of_obesity_85,P07855/).
+ 
+BMI Calculation with Shiny App
+========================================================
+
+* Sidebar panel  
+ - numericInput: Value of weight in kg between 1 and 200   
+ - numericInput: Value of height in cm between 1 and 300 
+
+* Main panel   
+ - Display calculated BMI
+ - Link to interpretation visualization
+ - Link to article from John Hopkins Medicine about health impact of overweight
+ 
+ 
